@@ -34,10 +34,10 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: rgba(255, 255, 255, 0.6);
-            backdrop-filter: blur(2px);
+            background: rgba(255, 255, 255, 0.85);
             z-index: 1;
         }
+
         /* Maskot Kiri - Inosera */
         .mascot-left {
             position: fixed;
@@ -360,10 +360,10 @@
 </head>
 <body>
     <!-- Maskot Kiri - Inosera -->
-    <img src="images/rasisera.png" alt="Maskot Inosera" class="mascot-left">
+    <img src="images/inosera.png" alt="Maskot Inosera" class="mascot-left">
     
     <!-- Maskot Kanan - Rasisera -->
-    <img src="images/inosera.png" alt="Maskot Rasisera" class="mascot-right">
+    <img src="images/rasisera.png" alt="Maskot Rasisera" class="mascot-right">
 
     <div class="register-container">
         <div class="register-card">
@@ -392,6 +392,9 @@
                         <input type="password" class="form-input" id="password" placeholder="Minimal 8 karakter" required>
                         <span class="toggle-password" id="togglePassword">👁️</span>
                     </div>
+                    <small style="display: block; margin-top: 0.5rem; color: #718096; font-size: 0.8rem;">
+                        Minimal 8 karakter, gunakan huruf besar & kecil, angka, dan simbol
+                    </small>
                     <div class="password-strength" id="passwordStrength">
                         <div class="strength-bar">
                             <div class="strength-fill"></div>
